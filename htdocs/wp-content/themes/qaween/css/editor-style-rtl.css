@@ -1,0 +1,12 @@
+/*
+ RTL Support for WordPress HTML editor
+ @version 1.0.0
+ @since 1.0.3
+*/
+
+/* Header Styles */
+
+html .mceContentBody {
+	direction: rtl;
+	text-align: right;
+}

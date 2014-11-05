@@ -1,0 +1,252 @@
+/*
+ RTL Support for Qaween WordPress theme
+ @version 1.0.0
+ @since 1.0.3
+*/
+
+/* Header Styles */
+#logo .name.left, #logo .name.left span {
+	text-align: left;
+}
+
+#logo .name.right span, #logo .name.right {
+	text-align: right;
+}
+
+.nav li a {
+	border-top: inherit solid #eee;
+	border-left: 1px solid #eee;
+	border-bottom: inherit solid #eee;
+	border-right: none !important;  
+}
+
+.nav > li:last-child a {
+	border-left: none;
+}
+
+
+/* Homepage Styles */
+.couples {
+	float: right;
+}
+
+.couples.left {
+	margin-right: 0;
+}
+
+.couples.right {
+	margin-right: 20px;
+}
+
+.couples .thumb {
+	float: right;
+}
+
+#countdown .number-container {
+	margin-left: 5%;
+	margin-right: 0;
+}
+
+.blog-item.first {
+	float: right;
+	margin-left: 3%;
+	margin-right: 0;
+}
+
+.blog-item .thumbnail {
+	float: right;
+	margin: 0 0 4% 4%;
+}
+
+.blog-item .post-content {
+	display: block;
+	text-align: right;
+	margin-right: 33%;
+}
+
+.blog-item.first .post-content {
+	margin-right: 0;
+}
+
+#pagination a {
+	margin: 0 5%;
+	text-align: right;
+	display: inline-block;
+}
+
+#pagination a.next:after {
+	margin-right: 10px;
+}
+
+#pagination a.prev:before {
+	margin-left: 10px;
+}
+
+#leftcol {
+    float: right;
+}
+
+#rightcol {
+    float: right;
+    margin-right: 5%;
+    margin-left: 0;
+}
+
+/* About Couple Styles  */
+img.alignleft {
+margin-left: 20px;
+}
+
+.alignleft {
+	float: right;
+}
+
+.alignright {
+    float: left;
+}
+
+/* Shortcodes Styles */
+.su-tabs-vertical .su-tabs-nav {
+	float: right !important;
+}
+
+.su-pullquote-align-right {
+	margin: 0.5em 1.5em 1em 0 !important;
+	padding-left: 0 !important;
+	padding-right: 1em !important;
+	float: left !important;
+	border-right: 5px solid #eee !important;
+	border-left: none !Important;
+}
+
+.su-button span i {
+	float: right;
+	margin: 0.4em 0 0 0.5em !important;
+}
+
+span.su-dropcap.su-dropcap-style-simple,
+span.su-dropcap.su-dropcap-style-flat {
+	float: right;	
+	margin: 0.2em 0 0.2em 0.5em !important;
+}
+
+/* Blog Styles */
+
+.blog-item .meta span, .hentry .meta span {
+	margin-left: 10px;
+	margin-right: 0;
+	text-align: right;
+	display: inline-block;
+}
+
+.comment-info {
+	float: right;
+}
+
+/* Footer Styles */
+.copyright {
+	float: left;
+}
+
+/* PrettyPhoto Styles */
+a.pp_close,
+.pp_nav .pp_play, 
+.pp_nav .pp_pause,
+a.pp_previous,
+a.pp_next,
+a.pp_arrow_previous, 
+a.pp_arrow_next,
+a.pp_expand, 
+a.pp_contract {
+	text-indent: 10000px;
+}
+
+/* maps widget */
+
+section.main.map .map-detail {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+
+/* Tweets widget */
+
+section.main.twitter ul#tweets-updates li .thumbnail {
+	float: right;
+}
+
+section.main.twitter ul#tweets-updates li .tweets-content {
+	margin-left: 0;
+	margin-right: 140px;
+}
+
+section.main.twitter ul#tweets-updates li ul li {
+	text-align: right;
+}
+
+section.main.twitter ul.tweets-lists p a {
+	display: inline-block;
+}
+
+section.main.twitter ul#tweets-updates li.right .thumbnail {
+	float: left;
+}
+
+section.main.twitter ul#tweets-updates li.right .tweets-content {
+	margin-right: 0;
+	margin-left: 140px;
+}
+
+section.main.twitter ul#tweets-updates li.right .tweets-content .heading {
+	text-align: left;
+}
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+	#timer .number-container {
+		float: left;
+		width: 45%;
+		margin-left: 3%;
+	}
+
+	section.main.twitter ul#tweets-updates li .thumbnail {
+		float: none !important;
+	}
+
+	section.main.twitter ul#tweets-updates li.right .tweets-content .heading,
+	section.main.twitter ul#tweets-updates li .tweets-content .heading {
+		text-align: center !important;
+	}
+
+	section.main.twitter ul#tweets-updates li .tweets-content {
+		margin-right: 0 !important;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+
+	section.main.twitter ul#tweets-updates li.right .tweets-content {
+		margin-right: 0;
+		margin-left: 100px;
+	}
+
+	section.main.twitter ul#tweets-updates li .tweets-content {
+		margin-left: 0;
+		margin-right: 100px;
+	}	
+ }
+
+@media screen and (max-width: 800px) {
+	section.main.twitter ul#tweets-updates li.right .thumbnail {
+		float: right;
+	}
+
+	section.main.twitter ul#tweets-updates li.right .tweets-content {
+		margin-left: 0;
+		margin-right: 140px;
+	}
+
+	section.main.twitter ul#tweets-updates li.right .tweets-content .heading {
+		text-align: right;
+	}
+}

@@ -1,0 +1,410 @@
+@media screen and (min-width: 1200px) {
+	.comment-info {
+	    width: 80%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.blog-item.first {
+	    width: 45%;
+	    margin-right: 5%;
+	}
+
+	.countdown .number {
+		font-size: 50px !important;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+
+	section.main.twitter ul#tweets-updates li .thumbnail {
+		width: 80px;
+		height: 80px;
+	}
+
+	section.main.twitter ul#tweets-updates li.right .tweets-content {
+		margin-right: 100px;
+	}
+
+	section.main.twitter ul#tweets-updates li .tweets-content {
+		margin-left: 100px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#header {
+		min-height: 120px;
+	}
+
+	#logo {
+		width: 93%;
+	}
+
+	#logo .name {
+		font-size: 28px !important;
+	}
+
+	#logo .name span {
+		font-size: 18px !important;
+		margin-top: 10px;
+	}
+
+	#logo .and {
+		font-size: 75px !important;
+		top: 20px;
+	}
+
+	nav.main {
+		background: none !important;
+		text-align: center;
+		margin-bottom: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		border: none !important;
+	}
+
+	select.menu-mobile {
+		display: block;
+		width: 80%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	#countdown .number {
+		font-size: 50px;
+	}
+
+	#main {
+		margin-top: 0;
+	}
+
+	.post-content .thumbnail {
+		margin: 0 auto 20px auto;
+		float: none;
+	}
+
+	.half {
+		width: 100%;
+	}
+
+	.post-content {
+		margin-bottom: 20px;
+	}
+
+	.gallery-item {
+		width: 48% !important;
+		margin: 0 4% 4% 0;
+	}
+
+	ul#grid li .gallery-item {
+		width: 100% !important;
+	}
+
+	body.single-gallery .gallery-item {
+		width: 47% !important;
+	}
+
+	.post .gallery-item,
+	.hentry .gallery-item,
+	body.archive .gallery-item {
+		width: 100% !important;
+	}
+
+	section.main.twitter ul#tweets-updates li.right .thumbnail {
+		float: left;
+	}
+
+	section.main.twitter ul#tweets-updates li.right .tweets-content .heading {
+		text-align: left;
+	}
+
+	section.main.twitter ul#tweets-updates li.right .tweets-content {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.gallery-item:nth-child(2n+2) {
+	    margin-right: 0;
+	}
+
+	.post .post-content p {
+		text-align: right;
+	}
+
+	section.main.twitter ul#tweets-updates li {
+		width: 100%;
+		margin-bottom: 100px;
+	}
+
+	.addthis_toolbox a label {
+		display: none;
+	}
+
+	.blog-item, 
+	.blog-item.first {
+		width: 100%;
+		margin: 0 0 7% 0;
+	}
+
+	.blog-item.first {
+		margin-bottom: 10%;
+	}
+
+	#timer .number {
+		font-size: 30px !important;
+	}
+
+	#footer .container.main {
+		padding: 60px 0 10px 0;
+	}
+
+	#footer {
+		text-align: center;
+	}
+
+	#footer .copyright,
+	#footer .developer {
+		float: none;
+		display: block !important;
+	}
+
+	nav.main ul.nav {
+		display: none;
+	}
+
+	nav.mobile {
+		display: block;
+	}
+
+    .input.text {
+        margin-left: 0;
+    }
+
+    .post {
+    	width: 46%;
+    }
+
+    .post .blog-title h2 {
+    	font-size: 25px;
+    }
+
+    .post .post-icon {
+    	font-size: 27px;
+    }
+
+    #leftcol,
+    #rightcol {
+    	float: none;
+    	width: 100%;
+    	margin-left: 0;
+    }
+
+    #rightcol {
+    	margin-top: 50px;
+    }
+
+	#footer .fa-heart {
+		margin-top: -80px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.gallery .gallery-item {
+		width: 45% !important;
+		margin: 0 4% 4% 0;
+	}
+
+	#rsvp form,
+	#rsvp .widget-title {
+		float: none;
+		width: 90%;
+	}
+
+	#rsvp form {
+		margin-bottom: 50px;
+	}
+
+	body.page-template-page-blog-php .post, 
+	body.page-template-page-events-php .type-event {
+		width: 100%;
+		margin: 0 0 30px 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#header {
+		min-height: 80px;
+		margin-top: 20px;
+	}
+
+	#logo .name {
+		font-size: 20px !important;
+		line-height: 100%;
+	}
+
+	#logo .name span {
+		font-size: 12px !important;
+		margin-top: 0;
+	}
+
+	#logo .and {
+		font-size: 40px !important;
+		top: 5px;
+	}
+
+	section.main .couples .thumb,
+	section.main .couples .thumbnail {
+		width: 100px;
+	}
+
+	section.main .couples .thumbnail {
+		height: 100px;
+	}
+
+	#slideshow {
+		margin-bottom: 40px;
+	}
+
+	.content-wrapper {
+		margin-top: 30px;
+		padding: 0 10px;
+	}
+
+	#slideshow .wedding-date {
+	    width: 230px;
+	    font-size: 13px;
+	    border-width: 1px;
+	}
+
+	#countdown {
+		padding: 40px 0;
+	}
+
+	#countdown h2 {
+		font-size: 13px;
+	}
+
+	#timer .number-container {
+		float: left;
+		width: 48%;
+		margin-right: 3%;
+	}
+
+	#timer .number-container:nth-child(2n+2) {
+		margin-right: 0;
+	}
+
+	#countdown .number {
+		width: 42%;
+		font-size: 16px;
+		margin-right: 2%;
+		padding: 10% 30% 10% 25%;
+	}
+
+	#countdown .text {
+		font-size: 8px;
+		position: relative;
+		left: -5%;
+	}
+
+	.gallery-item {
+		margin: 0 0 10% 0;
+	}
+
+	#grid .mix,
+	body.single-gallery .gallery-item {
+		width: 100% !important;
+		margin-right: 0;
+	}
+
+	.galleries .overlay a {
+		width: 30px;
+		height: 30px;
+	}
+
+	section.main.twitter ul#tweets-updates li .thumbnail {
+		float: none !important;
+		margin: 0 auto;
+	}
+
+	section.main.twitter ul#tweets-updates li.right .tweets-content .heading,
+	section.main.twitter ul#tweets-updates li .tweets-content .heading {
+		text-align: center;
+	}
+
+	section.main.twitter ul#tweets-updates li .tweets-content .heading {
+		margin-top: 10px;
+	}
+
+	section.main.twitter ul#tweets-updates li .tweets-content {
+		margin-left: 0;
+	}
+
+	.gallery-item .overlay a i {
+		font-size: 12px;
+		padding: 8px;
+	}
+
+	.blog-item .thumbnail {
+		width: 100%;
+	}
+
+	.page-title h1, 
+	.section-heading h2 {
+		font-size: 2.5em !important;
+	}
+
+    .input.text {
+        width: auto;
+    }
+
+    .post {
+    	width: 100%;
+    }
+
+    .post .blog-title h2 {
+    	font-size: 20px;
+    }
+
+    .post .post-icon {
+    	font-size: 27px;
+    }
+
+	.comment-thumbnail {
+	    width: 50px;
+	    margin-right: 7%;
+	}
+
+	.comment-info {
+	    float: left;
+	    width: 70%;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	.section-heading h2 {
+		font-size: 2.2em !important;
+	}
+
+	#countdown .number {
+		font-size: 12px !important;
+		padding-left: 25%;
+		padding-right: 35%;
+	}
+
+	.gallery .gallery-item {
+		float: none;
+		width: 100% !important;
+		margin: 0 0 5% 0;
+	}
+
+	#rsvp form,
+	#rsvp .widget-title {
+		width: 80%;
+	}
+
+	#countdown .fa-heart {
+		left: 40%;
+	}
+}

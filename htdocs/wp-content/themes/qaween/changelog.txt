@@ -1,0 +1,38 @@
+** Changelog for Qaween WordPress theme **
+** Author: http://www.themewarrior.com **
+
+
+June 16th, 2014 -- Version 1.0.7
+- Add missing text to .po file
+- Update Redux Framework to v3.3.1.9
+
+
+April 20th, 2014 -- Version 1.0.6
+- Fix theme options issue
+- Remove language parameter from map widget
+- Fix child theme issue
+- Fix date & time localization
+
+March 18th, 2014 -- Version 1.0.5
+- Add map & couple tweets widget
+- Add new options to theme options
+- Fix heart icon center position
+
+March 11th, 2014 -- Version 1.0.4
+- Enable subsets in all typography options
+
+March 9th, 2014 -- Version 1.0.3
+- Add RTL support
+- Add missing option to change RSVP description text color
+
+February 24th, 2014 -- Version 1.0.2
+- Add missing share buttons in single.php, page.php and page-full-width.php
+- Add Gallery taxonomy page template
+- Modify Countdown widget layout in small screen
+
+February 19th, 2014 -- Version 1.0.1
+- Fix RSVP form widget issue
+- Fix tracking code option in options panel
+
+February 16th, 2014 -- Version 1.0.0
+- Theme is released
